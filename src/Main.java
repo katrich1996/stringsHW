@@ -25,6 +25,6 @@ class dsa {
         for (int i = 0; i < split.length; i++) {
             split[i] = split[i].replace("ё", "е");
         }
-        System.out.println("Данные ФИО сотрудника "+split[0]+" "+split[1]+ " " +split[2]+ " ");
+        System.out.println("Данные ФИО сотрудника — "+split[0]+" "+split[1]+ " " +split[2]+ " ");
     }
 }
