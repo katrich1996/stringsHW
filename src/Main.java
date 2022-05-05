@@ -11,6 +11,6 @@ class HW {
         String strUpper = fullName.toUpperCase(Locale.ROOT);
         fullName = fullName.replace(" ", "; ");
         System.out.println("Данные ФИО сотрудника для административного отдела — " + fullName);
-        System.out.println("”Данные ФИО сотрудника для заполнения отчета — " + strUpper);
+        System.out.println("”Данные ФИО сотрудника для заполнения отчета —" + strUpper);
     }
 }
