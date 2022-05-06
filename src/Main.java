@@ -7,24 +7,24 @@ class HW {
         String middleName = "Ivanovich ";
         String lastName = "Ivanov ";
         String fullName = lastName + firstName + middleName;
-        System.out.println("Данные ФИО сотрудника для заполнения отчета — " + fullName);
+        System.out.println("Р”Р°РЅРЅС‹Рµ Р¤РРћ СЃРѕС‚СЂСѓРґРЅРёРєР° РґР»СЏ Р·Р°РїРѕР»РЅРµРЅРёСЏ РѕС‚С‡РµС‚Р° вЂ” " + fullName);
         String strUpper = fullName.toUpperCase(Locale.ROOT);
         fullName = fullName.replace(" ", "; ");
-        System.out.println("Данные ФИО сотрудника для административного отдела — " + fullName);
-        System.out.println("”Данные ФИО сотрудника для заполнения отчета — " + strUpper);
+        System.out.println("Р”Р°РЅРЅС‹Рµ Р¤РРћ СЃРѕС‚СЂСѓРґРЅРёРєР° РґР»СЏ Р°РґРјРёРЅРёСЃС‚СЂР°С‚РёРІРЅРѕРіРѕ РѕС‚РґРµР»Р° вЂ” " + fullName);
+        System.out.println("вЂќР”Р°РЅРЅС‹Рµ Р¤РРћ СЃРѕС‚СЂСѓРґРЅРёРєР° РґР»СЏ Р·Р°РїРѕР»РЅРµРЅРёСЏ РѕС‚С‡РµС‚Р° вЂ” " + strUpper);
     }
 }
 ///task4
 class dsa {
     public static void main(String[] args) {
-        String firstName = "Семён ";
-        String middleName = "Семёнович ";
-        String lastName = "Иванов ";
+        String firstName = "РЎРµРјС‘РЅ ";
+        String middleName = "РЎРµРјС‘РЅРѕРІРёС‡ ";
+        String lastName = "РРІР°РЅРѕРІ ";
         String fullName = lastName + firstName + middleName;
         String[] split = fullName.split(" ");
         for (int i = 0; i < split.length; i++) {
-            split[i] = split[i].replace("ё", "е");
+            split[i] = split[i].replace("С‘", "Рµ");
         }
-        System.out.println("Данные ФИО сотрудника — "+split[0]+" "+split[1]+ " " +split[2]+ " ");
+        System.out.println("Р”Р°РЅРЅС‹Рµ Р¤РРћ СЃРѕС‚СЂСѓРґРЅРёРєР° вЂ” "+split[0]+" "+split[1]+ " " +split[2]+ " ");
     }
 }
